@@ -27,11 +27,13 @@ header, footer {
 }
 
 nav ul{
+    display: flex;
     padding-left: 0%;
     list-style: none;
 } 
 
 a:link {
+    border: solid;
     text-decoration: none;
     background: #8338ec;
 }
