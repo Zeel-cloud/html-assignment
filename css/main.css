@@ -7,7 +7,7 @@ body {
 }
 
 header, footer {
-    background-color: coral;
+    background-color: #b8c0ff;
 }
 
 .site-title {
@@ -17,3 +17,26 @@ header, footer {
 #my-image {
     box-shadow: 0 0 2px 1px black;
 }
+
+#sqr{
+    list-style-type: square;
+}
+
+#sqr li:nth-child(odd){
+    background:#6d6875;
+}
+
+nav ul{
+    padding-left: 0%;
+    list-style: none;
+} 
+
+a:link {
+    text-decoration: none;
+    background: #8338ec;
+}
+  
+a:hover {
+    background-color: #2d6a4f;
+    text-decoration: none;
+}   
